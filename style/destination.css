@@ -1,0 +1,211 @@
+.body_aplication_destination_header {
+  display: flex;
+  padding: 0 20px;
+  background-color: #f3f3f3;
+  border-bottom: 2px solid #d3d3d3;
+  justify-content: space-between;
+}
+
+.destination_box {
+  width: 600px;
+  justify-content: space-between;
+  gap: 20px;
+  display: flex;
+}
+
+.destination_navbar {
+  display: flex;
+  padding-bottom: 10px;
+  align-items: end;
+}
+
+.destination_navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.destination_navbar ul a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.destination_navbar li:hover {
+  border-bottom: 2px solid #000;
+  transform: scale(1.1);
+}
+
+.profile {
+  gap: 30px;
+  display: flex;
+  align-items: end;
+}
+
+.viagem {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  gap: 20px;
+}
+
+.body_aplication_destination_content {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 100vh;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form {
+  width: 400px;
+}
+
+.form form {
+  border-radius: 10px 10px 0 0;
+  border: 2px solid #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.form form h2 {
+  font-size: 30px;
+  font-weight: 500;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.inputs,
+.containerInputs {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inputs input {
+  border-radius: 10px;
+  border: none;
+  padding-left: 30px;
+  width: 300px;
+  height: 40px;
+}
+
+.containerInputs {
+  flex-direction: row;
+}
+
+#coment {
+  width: 354px;
+  display: flex;
+  justify-content: center;
+}
+
+#coment input {
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  height: 100px;
+  width: 300px;
+}
+
+.containerInputs input {
+  border-radius: 10px;
+  border: none;
+  padding-left: 30px;
+  width: 150px;
+  height: 40px;
+}
+
+.body_aplication_destination_content form #send input{
+ width: 200px;
+ height: 40px;
+ border: none;
+ font-weight: 700;
+}
+
+.body_aplication_fale_conosco {
+ display: flex;
+  background-color: #dac8c3;
+  width: 100%;
+  gap: 50px;
+  height: 100vh;
+}
+
+.faleConosco {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faleConoscoText {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#faleConoscoTitle {
+  font-size: 150px;
+  color: #6e3708;
+}
+
+#faleConoscoTitle2 {
+  font-size: 70px;
+  color: #6e3708;
+}
+
+.body_aplication_fale_conosco form {
+  gap: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.body_aplication_fale_conosco form input {
+  border: none;
+  padding-left: 30px;
+  width: 300px;
+  height: 40px;
+}
+
+.faleConoscoInputs {
+  display: flex;
+  gap: 10px;
+}
+
+#email input {
+  width: 410px;
+}
+
+#comentario {
+  height: 100px;
+  width: 410px;
+}
+
+#send {
+  display: flex;
+  justify-content: center;
+}
+#send input{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #FFFF00;
+}
+
+.faleConoscoImg{
+ width: 100%;
+ height: 100%;
+ background: url(../public/img/17X_ImgID1.png) no-repeat center/cover;
+}

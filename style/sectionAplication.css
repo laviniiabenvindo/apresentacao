@@ -1,0 +1,86 @@
+.box_aplication_men_img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.box_aplication_text {
+  top: 150px;
+  width: 100%;
+  height: 129.7%;
+  display: flex;
+  padding: 0 20px;
+  position: absolute;
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    65deg,
+    rgba(9, 9, 121, 0.54) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  justify-content: space-between;
+}
+
+.box_aplication_text_title {
+  display: flex;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 800;
+  flex-direction: column;
+}
+
+.box_aplication_text_description {
+  margin: auto;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.box_aplication_text_description_box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box_aplication_text_description_title {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.box_aplication_text_description_text {
+  display: flex;
+  text-align: left;
+  font-weight: 700;
+  font-size: 30px;
+  flex-direction: column;
+}
+
+.box_aplication_driver {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box_aplication_driver_button {
+  color: #fff;
+  margin-left: 200px;
+  padding: 10px;
+  list-style: none;
+  font-weight: 500;
+  border-radius: 10px;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box_aplication_driver_button:hover {
+  transition: all 0.3s;
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.4);
+}

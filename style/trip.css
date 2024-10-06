@@ -1,0 +1,89 @@
+.body_aplication_trip {
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #d9c691;
+  justify-content: space-between;
+}
+
+.pesquisa {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trip_inputs {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.trip_inputs p {
+  font-size: 20px;
+  padding-left: 30px;
+  font-weight: 500;
+}
+
+#trip_input {
+  width: 350px;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  height: 30px;
+}
+
+#trip_inputs{
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+#inputTarifa{
+  border: none;
+  text-align: center;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+}
+
+.box_aplication_trip_title {
+  display: flex;
+  font-size: 70px;
+  font-weight: 500;
+  align-items: center;
+  flex-direction: column;
+}
+
+#subTitle {
+  font-size: 90px;
+}
+
+.trip_img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  background: url(../public/img/Sized-for-Blog-500x375.png) no-repeat center/cover;
+}
+
+.trip_img div {
+  display: flex;
+  font-weight: 700;
+  border-radius: 10px;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  width: 200px;
+  background-color:  #d9c691;
+}
+
+#tarifa{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}

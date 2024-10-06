@@ -1,0 +1,31 @@
+.body_aplication_accessibility{
+ display: flex;
+ height: 100vh;
+ width: 100%;
+ padding: 0 20px;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.body_aplication_accessibility_box {
+ gap: 30px;
+ display: flex;
+ flex-direction: column;
+}
+
+.body_aplication_accessibility_box h2 {
+ font-size: 40px;
+ font-weight: 800;
+}
+
+.body_aplication_accessibility_box ul{
+ gap: 40px;
+ font-weight: 700;
+ display: flex;
+ list-style: none;
+ flex-direction: column;
+}
+
+.body_aplication_accessibility_box_img img{
+ width: 500px;
+}

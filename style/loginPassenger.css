@@ -1,0 +1,80 @@
+.body_aplication_login_passenger{
+ position: relative;
+ top: 0;
+}
+.body_aplication_login_passenger img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.body_aplication_login_passenger_text {
+ top: 50%;
+ left: 50%;
+ gap: 40px;
+ display: flex;
+ position: absolute;
+ align-items: center;
+ flex-direction: column;
+ transform: translate(-50%, -50%);
+}
+#passenger_img {
+  width: 200px;
+  height: 200px;
+}
+
+.body_aplication_login_passenger_text div p{
+  text-align: center;
+  color: #fff;
+}
+
+#passenger_text_1{
+  font-size: 80px;
+  font-weight: 700;
+  color: #FA8072;
+}
+
+#passenger_text_2{
+  font-size: 70px;
+}
+
+#passenger_text_3{
+  font-size: 45px;
+  font-weight: 700;
+  color: #f3f3f3;
+}
+
+#passenger_text_4{
+  font-size: 90px;
+}
+
+#passenger_form{
+ color: #fff;
+  gap: 40px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  justify-content: center;
+  margin: 30px;
+  display: flex;
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  height: 450px;
+  flex-direction: column;
+  background-color: #6d351a;
+}
+
+#passenger_form input{
+ gap: 20px;
+ border: none;
+}
+
+#passenger_form h2{
+  text-align: center;
+}
+
+#passenger_inputs{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
